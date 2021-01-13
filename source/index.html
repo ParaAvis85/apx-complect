@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,69 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <h1>Добро пожаловать</h1>
+  <header class="page-header">
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__item-link" href="#">Галерея</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__item-link" href="#">О нас</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">Связаться</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__item-link" href="#">Избранное <span>(0)</span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="promo">
+      <h1 class="promo__header">apx<sup>.</sup> Комплект</h1>
+      <p class="promo__text">оптовая компания</p>
+      <p class="promo__text">Мы проработаем ваш проект</p>
+      <button class="promo__button" type="button" aria-label="перейти в галерею">Перейти в галерею</button>
+    </section>
+    <section class="types-granite">
+      <h2 class="visually-hidden">гранит</h2>
+      <ul class="types-granite__list">
+        <li class="types-granite__item">
+          <img src="img/granite800x1000.jpg" srcset="img/granite800x1000@2x.jpg"  width="168" height="295"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite800x800.jpg" srcset="img/granite800x800@2x.jpg"  width="358" height="358"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite450x450.jpg" srcset="img/granite450x450@2x.jpg"  width="253" height="253"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite600x1200.jpg" srcset="img/granite600x1200@2x.jpg"  width="253" height="421"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite600x600.jpg" srcset="img/granite600x600@2x.jpg"  width="253" height="252"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite1200x2600.jpg" srcset="img/granite1200x2600@2x.jpg"  width="282" height="494"
+          alt="Фото керамогранита">
+        </li>
+        <li class="types-granite__item">
+          <p class="types-granite__text">Кабанчик</p>
+          <img src="img/wildboar.jpg" srcset="img/wildboar@2x.jpg"  width="252" height="110"
+          alt="Кабанчик">
+        </li>
+        <li class="types-granite__item">
+          <img src="img/granite.jpg" srcset="img/granite@2x.jpg"  width="160" height="255"
+          alt="Фото керамогранита">
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
