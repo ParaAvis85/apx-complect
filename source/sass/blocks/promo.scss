@@ -1,0 +1,41 @@
+.promo {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.promo__header {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 42px;
+    left: 285px;
+    background-color: $black;
+    background-position: center;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+  }
+}
+
+.promo__header-italic {
+  font-style: italic;
+}
+
+.promo__header-normal {
+  font-style: normal;
+}
+
+
+.promo__text-company {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
