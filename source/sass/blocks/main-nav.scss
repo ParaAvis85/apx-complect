@@ -1,0 +1,32 @@
+.main-nav {
+  width: 1600px;
+  margin: 0 auto;
+  min-height: 200px;
+}
+
+.main-nav__list {
+  @include no-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-nav__item {
+  padding-right: 50px;
+  margin-top: 80px;
+
+  &:last-child {
+    margin-left: auto;
+  }
+}
+
+.main-nav__item-link {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+
+  &--favorites {
+    color: $favorites;
+  }
+}

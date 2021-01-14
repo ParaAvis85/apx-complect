@@ -1,0 +1,12 @@
+.background-wrapper {
+  background-image: url("../img/peter-larsen.jpg");
+  background-color: $background;
+  background-repeat: no-repeat;
+  height: 1024px;
+  background-size: cover;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/peter-larsen@2x.jpg");
+    background-repeat: no-repeat;
+  }
+}
