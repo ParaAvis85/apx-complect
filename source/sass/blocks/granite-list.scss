@@ -1,0 +1,32 @@
+.granite-list {
+  @include no-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.granite-list__item {
+  padding-left: 110px;
+}
+
+.granite-list__item-wrapper {
+  width: 500px;
+}
+
+.granite-list__header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.granite-list__image {
+  width: 500px;
+}
+
+.granite-list__text {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+}
