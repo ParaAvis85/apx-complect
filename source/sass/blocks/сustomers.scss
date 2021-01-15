@@ -1,0 +1,46 @@
+.сustomers {
+  margin: 0 auto;
+  width: 1250px;
+  min-height: 1000px;
+  background-image: url("../img/rectangle20.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 578px 504px;
+}
+
+.сustomers__header {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 120%;
+  padding-top: 210px;
+  padding-left: 100px;
+  margin-bottom: 0;
+
+  &--right {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 295px;
+  }
+}
+
+.сustomers__text {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  padding-left: 295px;
+  padding-right: 650px;
+}
+
+.сustomers__link {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  padding-left: 295px;
+}
