@@ -1,6 +1,9 @@
 .promo {
-  width: 980px;
+  position: relative;
+  width: 1700px;
   margin: 0 auto;
+  padding-left: 200px;
+  padding-right: 150px;
 }
 
 .promo__header {
@@ -10,12 +13,15 @@
   font-size: 144px;
   line-height: 120%;
   text-transform: uppercase;
+  margin-bottom: 0;
+  padding-left: 145px;
+  padding-right: 50px;
 
   &::after {
     position: absolute;
     content: "";
     top: 42px;
-    left: 285px;
+    left: 430px;
     background-color: $black;
     background-position: center;
     border-radius: 50%;
@@ -38,4 +44,46 @@
   font-weight: 700;
   font-size: 64px;
   line-height: 120%;
+  margin: 0;
+  padding-left: 715px;
+  text-transform: uppercase;
+
+  &--right {
+    padding-left: 910px;
+  }
+}
+
+.promo__text {
+  position: absolute;
+  top: 20px;
+  right: 130px;
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 300px;
+}
+
+.promo__button {
+  position: absolute;
+  top: 54px;
+  right: 500px;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 0;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  }
 }
