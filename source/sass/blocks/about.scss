@@ -1,0 +1,85 @@
+
+.about {
+  background-image: url("../img/pallets.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 700px 39px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/pallets@2x.jpg");
+  }
+}
+
+.about__wrapper {
+  min-height: 745px;
+}
+
+.about__wrapper-description {
+  position: relative;
+  min-height: 373px;
+  background-image: url("../img/rectangle195.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 200px 141px;
+  margin-bottom: 60px;
+
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/rectangle195@2x.jpg");
+  }
+}
+
+.about__header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 120%;
+}
+
+.about__text-description {
+  position: absolute;
+  top: 140px;
+  left: 400px;
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  writing-mode: vertical-lr;
+}
+
+.about__text {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  padding-left: 194px;
+  padding-right: 38px;
+}
+
+.about__wrapper-text {
+  width: 600px;
+}
+
+.about__text-copmany {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  margin: 0;
+  padding-left: 100px;
+
+  &--right {
+    padding-left: 195px;
+  }
+}
+
+.about__link {
+  font-family: $font-other;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  padding-left: 192px;
+}
