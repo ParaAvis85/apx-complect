@@ -10,6 +10,10 @@
 
 .granite-list__item-wrapper {
   width: 500px;
+
+  &--small {
+    width: 160px;
+  }
 }
 
 .granite-list__header {
@@ -21,6 +25,10 @@
 
 .granite-list__image {
   width: 500px;
+
+  &--small {
+    width: 160px;
+  }
 }
 
 .granite-list__text {
