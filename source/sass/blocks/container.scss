@@ -1,6 +1,6 @@
 .container {
   @media (min-width: $desktop-width) {
-    max-width: $desktop-width;
+    max-width: $desktop-max-width;
     padding: 0 30px;
     margin: 0 auto;
   }
