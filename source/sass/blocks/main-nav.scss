@@ -30,3 +30,32 @@
     color: $favorites;
   }
 }
+
+.main-nav__logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: $granitetext;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 42px;
+    left: 430px;
+    background-color: $white;
+    background-position: center;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+  }
+}
+
+.main-nav__logo-italic {
+  font-style: italic;
+}
+
+.main-nav__logo-normal {
+  font-style: normal;
+}
